@@ -3,7 +3,7 @@
 
 ## This is a repo for the Python Environment Project, As I completed the project in different stages there are several stages which took place prior to the final file.
 
-### What was the Task 
+### What was the Task
 
 - The task was to create a development, testing and production environment for an app and the Jenkins pipeline for it.
 - I had to use the code to create a VM.
@@ -17,18 +17,10 @@
 - Using the AmI I created 3 instances 1 for Jenkins and the other as slave nodes. The security groups for this were setup,  for my home IP, GitHub Access and for the SlaveNode. This in conjunction with the NACL’s created as well.
 - I started the Jenkins CI/CD Pipeline Yet did not complete.
 
-####  Python Environment Using Packer
-- https://github.com/victorsibanda/DevEnvPackerAMIJenkins
-
-- Using Packer I created an AMI. This AMI allows me to run the project or download Jenkins. Depending on the use, thus it can also be used as a slave node using the EC2 AWS plugin on Jenkins.
 
 #### Python Environment Using Chef and Vagrant
 - https://github.com/victorsibanda/DevEnvChefVM
 - When using Chef with Vagrant the provisioning method used is Chef Solo. In this repo you can vagrant up into the machine and test it.
-
-#### Python Environment Cookbook
-- https://github.com/victorsibanda/PythonDevEnvCookbook
-- This is a cookbook for the Python Dev Environment
 
 #### Python Environment Using Vagrant
 - https://github.com/victorsibanda/dev_env_vm
