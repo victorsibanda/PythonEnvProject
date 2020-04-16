@@ -1,0 +1,7 @@
+DEPENDENCIES
+  PythonDevEnvCookbook
+    git: git@github.com:victorsibanda/PythonDevEnvCookbook.git
+    revision: 33aca7e60e57ec414e85da6a001bca74ee929766
+
+GRAPH
+  PythonDevEnvCookbook (0.1.0)
