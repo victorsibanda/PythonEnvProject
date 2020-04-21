@@ -28,6 +28,8 @@ bash 'install_java' do
     EOH
 end
 
+package 'python3-pip'
+
 bash 'install_requirements' do
   code <<-EOH
     sudo pip3 install atomicwrites==1.3.0
