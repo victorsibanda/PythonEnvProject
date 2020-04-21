@@ -41,7 +41,6 @@
   "provisioners" : [
     {
       "type": "chef-solo",
-      "execute_command": "{{if .Sudo}}sudo {{end}}chef-client --chef-license accept-silent --no-color -c {{.ConfigPath}} -j {{.JsonPath}}",
       "cookbook_paths": ["./Cookbooks"],
       "run_list" : ["PythonDevEnvCookbook::default"]
     },
