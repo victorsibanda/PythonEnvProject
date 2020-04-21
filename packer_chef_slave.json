@@ -13,7 +13,8 @@
 
     "subnet_id": "subnet-0f3e6d1b9e9b3f26a",
 
-
+    "ssh_keypair_name": "victor-eng54",
+    "ssh_private_key_file": "~/.ssh/victor-eng54.pem",
 
     "associate_public_ip_address": true,
 
