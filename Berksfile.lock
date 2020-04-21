@@ -1,7 +1,7 @@
 DEPENDENCIES
   ChefPackerAMICookbook
     git: git@github.com:victorsibanda/ChefPackerAMICookbook.git
-    revision: 76bb983227ee7d46c0e579eea817855d3d59d4c0
+    revision: 143fa382caf4de1fdda6187c717c050fa2b1f464
   PythonDevEnvCookbook
     git: git@github.com:victorsibanda/PythonDevEnvCookbook.git
     revision: dec357d3114c15474a0cc1972be0d08274d1f408
