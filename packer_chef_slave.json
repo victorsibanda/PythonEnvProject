@@ -35,8 +35,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "Victor-Sibanda-Eng54-Chef-Slave",
-    "name": "VS-Eng54-AMI-Chef-Slave"
+    "ami_name": "1Victor-Sibanda-Eng54-Chef-Slave"
   }],
 
   "provisioners" : [
