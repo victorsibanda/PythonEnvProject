@@ -34,8 +34,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "Victor-Sibanda-Eng54-AMI-With-App {{timestamp}}",
-    "name": "VS-Eng54-AMI"
+    "ami_name": "Victor-Sibanda-Eng54-AMI-With-App {{timestamp}}"
   }],
 
   "provisioners" : [
