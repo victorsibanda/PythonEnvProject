@@ -1,5 +1,5 @@
 .DS_Store
 .gitmodules
 Berksfile.lock
-./Cookbooks
+/Cookbooks
 ./Berk-Cookbooks
