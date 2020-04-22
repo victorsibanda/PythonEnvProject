@@ -1,5 +1,8 @@
 # Python Environment Project
 
+##To Use this Repo
+
+`git clone git@github.com:victorsibanda/PythonEnvProject.git`
 
 ## This is a repo for the Python Environment Project:
 

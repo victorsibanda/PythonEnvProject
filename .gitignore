@@ -2,4 +2,4 @@
 .gitmodules
 Berksfile.lock
 /Cookbooks
-./Berk-Cookbooks
+/Berk-Cookbooks
