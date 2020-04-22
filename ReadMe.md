@@ -1,8 +1,13 @@
 # Python Environment Project
 
-##To Use this Repo
+## To Use this Repo
 
-`git clone git@github.com:victorsibanda/PythonEnvProject.git`
+```
+git clone git@github.com:victorsibanda/PythonEnvProject.git
+
+berks vendor Cookbooks
+
+```
 
 ## This is a repo for the Python Environment Project:
 
