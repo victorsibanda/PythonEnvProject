@@ -18,10 +18,12 @@
 - I created a Jenkins CI/CD Pipeline which builds and AMI when there is a Successful Git pull-request and this starts the job that builds the AMI.
 - Using the new AMI I launched an instance which allows me to test to see if the app works.
 
-##Cookbooks
+## Cookbooks
 
 - I used two cookbooks, one provisions an empty-dev environment, the second provision a test environment with Packer, Java and Chef.
 1 - https://github.com/victorsibanda/PythonDevEnvCookbook
+
+
 2 - https://github.com/victorsibanda/ChefPackerAMICookbook
 
 
@@ -34,16 +36,6 @@
 - https://github.com/victorsibanda/It_Jobs_Watch_Data_Package
 - This is the code used for this application
 
-
-## The project was completed using AWS in which I made a slave node and CI/CD Pipeline
-
-
-- I created 3 EC2s on Amazon AWS, using two as slave nodes and one as a master for Jenkins.
-- I then downloaded Jenkins to the master, and java on the slave nodes allowing me to use them for testing on Jenkins.
-
-
-
-- These are the Nodes working and stable after creation, each can run 3 builds at a time.
 
 
 ## CI/CD Pipelines
